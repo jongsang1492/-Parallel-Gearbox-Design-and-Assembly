@@ -20,7 +20,15 @@ The goal was to create a **functional and manufacturable prototype** that demons
 | **Top View** | <img width="330" alt="Top View" src="https://github.com/user-attachments/assets/8ce44330-596c-406a-a01c-b318882b8afc" /> |
 
 ---
+## Physical Prototype
 
+This photo shows the final assembled prototype of the parallel gearbox after 3D printing and manual assembly.  
+It demonstrates that the design was not only modeled in SolidWorks, but also successfully fabricated into a functional physical system.
+
+![IMG_0160](https://github.com/user-attachments/assets/d555e12e-1b98-4154-a9f2-1ebb21ef4157)
+
+
+---
 ## Assembly Process
 
 | Step | Description | Image |
