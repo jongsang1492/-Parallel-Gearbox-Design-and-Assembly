@@ -39,21 +39,51 @@ It demonstrates that the design was not only modeled in SolidWorks, but also suc
 
 ---
 
+## Gear Reduction Calculation
+
+The gearbox uses two spur gear stages with identical gear ratios.
+
+Stage 1  
+Input Gear: 10 teeth  
+Output Gear: 40 teeth  
+
+Reduction Ratio = 40 / 10 = 4:1
+
+Stage 2  
+Input Gear: 10 teeth  
+Output Gear: 40 teeth  
+
+Reduction Ratio = 40 / 10 = 4:1
+
+Total Gear Reduction  
+4 × 4 = **16:1**
+
+## Design Decisions
+
+- **Spur gears** were selected due to their simplicity and ease of manufacturing with FDM 3D printing.
+- **Hexagonal shafts** were used to prevent gear slippage under torque and eliminate the need for keyways.
+- The gearbox frame was designed as a **single-piece housing** to improve structural rigidity and reduce assembly complexity.
+- A **modular shaft system** allows quick replacement of gears and shafts if components fail during testing.
+  
 ## Key Features
 - **Dual-stage 4:1 spur gear system** achieving a total **16:1 reduction**.  
 - Modeled and assembled in **SolidWorks**, verifying motion and torque transfer.  
 - **Tolerance analysis** ensured precision fits (±0.2 mm) and smooth gear motion.  
 - **3D-printed prototype** validated assembly feasibility and gear meshing accuracy.  
 - Simplified frame to a **single-piece housing**, reducing part count by 25%.  
-
+- Demonstrated consistent gear meshing and stable torque transmission during manual testing.
 ---
 
 ## Technical Summary
+- **Gear Type:** Spur Gear  
+- **Gear Module:** 2  
+- **Largest Gear Diameter:** 80 mm  
+- **Gear Width:** 10 mm
 - **Gear Ratio:** 16:1 (4:1 × 4:1)  
 - **Material:** PLA (Prototype Phase)  
 - **Software:** SolidWorks 2022  
 - **Tolerance Target:** ±0.2 mm  
-- **Method:** FDM 3D Printing  
+- **Method:** FDM 3D Printing
 
 ---
 
